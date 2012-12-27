@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="style.css" type="text/css" media="all">
+        <!-- Google-hosted jQuery -->
+		<script type="text/javascript" src="jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+<body class="basecamp options">
+	<div class="container">
+		<form id="save_options" method="get">
+			<fieldset>
+				<legend>Setup Basecamp Shortcut</legend>
+				
+				<label for="basecampId">Basecamp ID:</label>
+				<input type="text" name="basecampId" id="basecampId" value="" size="20" maxlength="50" />
+				
+				<label for="basecampType">Basecamp Version:</label>
+				<select name="basecampType" id="basecampType">
+					<option>New</option>
+					<option>Classic</option>
+				</select>
+				
+				<div class="cf"></div>
+				
+				<input type="submit" class="btn btn-primary" value="Save Options" />
+				
+				<div class="cf"></div>
+				
+				<div class="well" style="margin-top: 100px;">
+					<p><strong>Please Note:</strong>
+					Your Basecamp Account ID can be found by navigating to Basecamp, and copying/pasting the number after https://basecamp.com/.</p>
+					<p>To signup to Basecamp, please <a href="http://basecamp.com/">click here</a></p>
+				</div>
+				
+			</fieldset>
+		</form>
+	</div>
+</body>
+</html>

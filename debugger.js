@@ -1,0 +1,1 @@
+var url="http://debug.datatables.net/bookmarklet/DT_Debug.js";if(typeof DT_Debug!="undefined")DT_Debug.instance!==null?DT_Debug.close():new DT_Debug;else{var n=document.createElement("script");n.setAttribute("language","JavaScript");n.setAttribute("src",url+"?rand="+(new Date).getTime());document.body.appendChild(n)};
